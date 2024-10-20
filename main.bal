@@ -108,6 +108,7 @@ function transformLoanRequest(LoanRequest loanRequest, LoanApproval loanApproval
     log:printInfo(string `END: transform loan request: ${loanRequest.loanRequestId}`);
     return {
         loanRequestId,
+        
         amount,
         loanType: 'type,
         datetime,
